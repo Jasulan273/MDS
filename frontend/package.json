@@ -1,0 +1,29 @@
+{
+  "name": "mds-appointments",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "5.40.1",
+    "next": "16.2.6",
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.14.2",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "eslint": "9.39.1",
+    "eslint-config-next": "16.2.6",
+    "typescript": "5.4.5"
+  },
+  "overrides": {
+    "postcss": "8.5.10"
+  }
+}
